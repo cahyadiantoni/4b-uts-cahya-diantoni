@@ -1,0 +1,48 @@
+@media screen and (max-width: 992px) {
+  #contact h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .card-contact {
+    width: 100%;
+    height: auto;
+    padding: 52px 48px;
+  }
+  .card-contact h2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 21px;
+    margin-top: 42px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .img-cahya {
+    width: 60%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 766px) {
+  .cahya-tagline h1 {
+    line-height: 52px;
+  }
+  .img-cahya {
+    width: 45%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cahya-tagline h1 {
+    line-height: 52px;
+  }
+  .img-cahya {
+    width: 45%;
+    height: auto;
+  }
+  
+}
+@media screen and (max-width: 350px) {
+  .img-cahya {
+    width: 0%;
+    height: auto;
+  }
+}

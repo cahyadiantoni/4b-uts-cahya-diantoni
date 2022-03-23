@@ -1,0 +1,318 @@
+:root {
+  --pr-color: #339a99;
+}
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-color: #c9f7eb;
+  color: #2f455c;
+}
+.warna-tema {
+  color: #339a99;
+}
+.bg-abu {
+  /* background-color: #c9f7eb !important; */
+  background: linear-gradient(90deg, #fff, #c9f7eb, #fff);
+  opacity: 95%;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #2f455c;
+  border-bottom: 4px solid;
+}
+/* home */
+#cahya {
+  background: linear-gradient(160deg, #34f5c5, var(--pr-color));
+  height: 100vh;
+  width: 100%;
+}
+.img-cahya {
+  height: 80%;
+}
+.cahya-tagline h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+.cahya-tagline p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 90%;
+}
+.button-lg-primary {
+  width: 200px;
+  height: 70px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  border-radius: 10px;
+}
+.button-lg-primary:hover {
+  background-color: var(--pr-color);
+  color: #fff;
+  /* margin: 2px; */
+}
+/* layanan */
+#layanan {
+  padding: 70px 0;
+  background-color: #c9f7eb;
+  height: 100%;
+  width: 100%;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+.sub-title {
+  font-size: 18px;
+  color: black;
+}
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+  transition: all 0.1s ease-in;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+}
+.card-layanan h3 {
+  color: var(--pr-color);
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+}
+.card-layanan p {
+  color: #000;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+}
+/* ketika hover */
+.card-layanan:hover {
+  margin: 5px;
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background: linear-gradient(160deg, #34f5c5, var(--pr-color));
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+.card-layanan:hover .circle-icon {
+  background-color: #fff;
+  transition: all 0.2s ease-in;
+}
+.card-layanan:hover h3 {
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+}
+.card-layanan:hover p {
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.2s ease-in;
+}
+
+/* Blog */
+#blog {
+  padding: 100px 0;
+  background-color: var(--pr-color);
+  height: 100%;
+  width: 100%;
+}
+#blog h2 {
+  color: #fff;
+}
+#blog h5 {
+  color: var(--pr-color);
+}
+.bt-blog {
+  color: #fff;
+  background-color: #2f455c;
+  border-radius: 10px;
+  margin: 4px;
+}
+.bt-blog:hover {
+  background-color: #50769e;
+  margin: 2px;
+}
+.card-blog {
+  display: flex;
+  justify-content: space-between;
+}
+.break {
+  background-color: var(--pr-color);
+}
+
+/* kontak */
+#contact {
+  padding-top: 80px;
+}
+#contact .overlay {
+  width: 90%;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+#contact .overlay:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  filter: blur(10px);
+  margin: -20px;
+}
+#contact .container {
+  padding: 50px 0 50px 0;
+}
+#contact h3 {
+  width: 500px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+#contact h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 19px 0 14px 0;
+  color: #2f455c;
+}
+.kontak a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4a6e94;
+  text-decoration: none;
+  margin-left: 18px;
+  width: 600px;
+  display: inline-block;
+}
+.form-floating input, .form-floating textarea{
+  border-radius: 10px;
+}
+.linkapp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4a6e94;
+  text-decoration: none;
+}
+.card-contact {
+  width: 100%;
+  height: 445px;
+
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 52px 48px;
+}
+.card-contact h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.form-control {
+  background-color: #c4c4c4;
+  height: 75px !important;
+  border-radius: 0;
+}
+.form-floating label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #717171;
+}
+.btn-kontak {
+  width: 100%;
+  height: 75px;
+  background: var(--pr-color);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  border-radius: 10px;
+}
+.btn-kontak:hover {
+  width: 100%;
+  height: 75px;
+  background: #2f455c;
+  color: #fff;
+}
+#contact h2 {
+  text-align: center;
+}
+#footer {
+  background-color: var(--pr-color);
+  padding-bottom: 50px;
+}
+#footer p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top img {
+  height: 28px;
+}
+.back-to-top:hover {
+  background: grey;
+  color: #fff;
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
